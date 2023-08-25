@@ -28,7 +28,10 @@ const pizzaSchema = new Schema({
         type: String,
         enum: ["Small", "Medium", "Large"]
     },
-    ingredients: [String]
+    ingredients: [String],
+
+    chefName : String,
+
 });
 
 
